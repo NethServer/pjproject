@@ -1,0 +1,10 @@
+diff --git /dev/null user.mak
+new file mode 100644
+index 0000000..19b2520
+--- /dev/null
++++ user.mak
+@@ -0,0 +1,4 @@
++# You can create user.mak file in PJ root directory to specify
++# # additional flags to compiler and linker. For example:
++export CFLAGS += -g
++export LDFLAGS +=
