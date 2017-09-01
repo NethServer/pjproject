@@ -1,7 +1,7 @@
 Summary: PJSIP is a free and open source multimedia communication library
 Name: pjproject
 Version: 2.5.5
-Release: 1%{dist}
+Release: 2%{dist}
 License: GPL
 Group: Utilities/System
 Source0: http://www.pjsip.org/release/%{version}/%{name}-%{version}.tar.bz2
@@ -10,11 +10,11 @@ Patch1: user.mak.diff
 BuildRoot: %{_tmppath}/%{name}-%{version}-root
 URL: http://pjsip.org/
 BuildRequires: gsm-devel
-BuildRequires: libsrtp-devel
+BuildRequires: libsrtp15-devel
 BuildRequires: speex-devel
 BuildRequires: openssl-devel
 Requires: gsm
-Requires: libsrtp
+Requires: libsrtp15
 Requires: speex
 Requires: openssl
 
