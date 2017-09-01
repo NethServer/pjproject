@@ -90,6 +90,8 @@ cd $RPM_BUILD_DIR
 %{_includedir}/pjsua2/*
 %{_libdir}/libpjsua2.so
 %{_libdir}/libpjsua2.so.2
+%{_libdir}/libyuv.so
+%{_libdir}/libyuv.so.2
 
 %files devel
 #
